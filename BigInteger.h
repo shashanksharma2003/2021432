@@ -44,4 +44,3 @@ void turnicate(struct BigInteger );
 void dump(struct BigInteger );
 
 struct BigInteger mod(struct BigInteger  , struct BigInteger );
-//struct BigInteger mod_sub(struct BigInteger a , struct BigInteger b);
