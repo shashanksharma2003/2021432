@@ -2,11 +2,11 @@
 
 
 
-void sign_rev(struct node *head)
+void sign_rev(struct node *h)
 {
-    if(head==0)return;
-    head->data *= -1;
-    sign_rev(head->next);
+    if(h==0)return;
+    h->data *= -1;
+    sign_rev(h->next);
 }
 
 struct BigInteger initialize(char *s)
